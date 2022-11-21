@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF7257BE2922880C004F8133 /* ViewControllerRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7257BD2922880C004F8133 /* ViewControllerRock.swift */; };
 		FFB93FC4291E84C8003EA7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB93FC3291E84C8003EA7EB /* AppDelegate.swift */; };
 		FFB93FC6291E84C8003EA7EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB93FC5291E84C8003EA7EB /* SceneDelegate.swift */; };
 		FFB93FC8291E84C8003EA7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB93FC7291E84C8003EA7EB /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF7257BD2922880C004F8133 /* ViewControllerRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRock.swift; sourceTree = "<group>"; };
 		FFB93FC0291E84C8003EA7EB /* rockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB93FC3291E84C8003EA7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB93FC5291E84C8003EA7EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				FFB93FC5291E84C8003EA7EB /* SceneDelegate.swift */,
 				FFB93FC7291E84C8003EA7EB /* ViewController.swift */,
 				FFB93FC9291E84C8003EA7EB /* Main.storyboard */,
+				FF7257BD2922880C004F8133 /* ViewControllerRock.swift */,
 				FFB93FCF291E84C9003EA7EB /* Assets.xcassets */,
 				FFB93FD1291E84C9003EA7EB /* LaunchScreen.storyboard */,
 				FFB93FD4291E84C9003EA7EB /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7257BE2922880C004F8133 /* ViewControllerRock.swift in Sources */,
 				FFB93FC8291E84C8003EA7EB /* ViewController.swift in Sources */,
 				FFB93FC4291E84C8003EA7EB /* AppDelegate.swift in Sources */,
 				FFB93FCE291E84C8003EA7EB /* rockPaperScissors.xcdatamodeld in Sources */,
