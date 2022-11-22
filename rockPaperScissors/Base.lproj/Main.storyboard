@@ -84,21 +84,9 @@
                                 <rect key="frame" x="156" y="412" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="angryRock-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="veS-M3-sU2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angryRock-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="veS-M3-sU2">
                                 <rect key="frame" x="16" y="103" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVQ-Rb-joU">
-                                <rect key="frame" x="12" y="191" width="88" height="34.333333333333343"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Rock">
-                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" cyan="0.89443278680000005" magenta="0.3977465986" yellow="0.30605178630000002" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="rockAction:" destination="7XH-s6-k6O" eventType="touchUpInside" id="Lqq-oF-Vx9"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHV-ME-MA3">
                                 <rect key="frame" x="152" y="191" width="88" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -197,11 +185,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVQ-Rb-joU">
+                                <rect key="frame" x="12" y="191" width="88" height="34.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Rock">
+                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" cyan="0.89443278680000005" magenta="0.3977465986" yellow="0.30605178630000002" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="rockAction:" destination="7XH-s6-k6O" eventType="touchUpInside" id="Lqq-oF-Vx9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fr8-6F-fcB"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Fr8-6F-fcB" firstAttribute="bottom" secondItem="Lxq-Ql-pjX" secondAttribute="bottom" constant="115" id="G80-mG-fe3"/>
+                            <constraint firstItem="YVQ-Rb-joU" firstAttribute="top" secondItem="veS-M3-sU2" secondAttribute="bottom" id="M6B-0y-SK4"/>
                             <constraint firstItem="Lxq-Ql-pjX" firstAttribute="top" secondItem="YVQ-Rb-joU" secondAttribute="bottom" constant="390" id="MZg-06-kMJ"/>
                             <constraint firstItem="Lxq-Ql-pjX" firstAttribute="leading" secondItem="Fr8-6F-fcB" secondAttribute="leading" constant="15" id="ZTx-te-EaV"/>
                         </constraints>
@@ -254,7 +254,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uyt-ws-2cC">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cyan="0.89443278680000005" magenta="0.3977465986" yellow="0.30605178630000002" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" cyan="0.89443278680000005" magenta="0.3977465986" yellow="0.30605178630000002" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                         <color key="selectedImageTintColor" cyan="0.89443278680000005" magenta="0.3977465986" yellow="0.30605178630000002" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
